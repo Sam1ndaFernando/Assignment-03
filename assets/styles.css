@@ -1,0 +1,189 @@
+div{
+    position: relative;
+}
+
+#Box1{
+    background: red;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+#Box2{
+    background: green;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+}
+
+#Box3{
+    background: orange;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+#Box4{
+    background: deeppink;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#Box5{
+    background: white;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: calc(50% - 75px);
+    bottom: calc(50% - 75px);
+}
+
+#Circle1{
+    background: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(50% - 50px);
+    bottom: calc(50% - 50px);
+}
+
+#Circle2{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(0% - 100px);
+    bottom: calc(0% - 100px);
+}
+
+#Circle3{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(100% - 100px);
+    bottom: calc(100% - 100px);
+}
+
+#Circle4{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(0% - 100px);
+    bottom: calc(100% - 100px);
+}
+#Circle5{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(100% - 100px);
+    bottom: calc(0% - 100px);
+}
+
+#Circle6{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(50% - 100px);
+    bottom: calc(0% - 100px);
+}
+
+#Circle7{
+    background: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    right: calc(50% - 100px);
+    bottom: calc(100% - 100px);
+}
+
+#Circle8{
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    right: calc(50% - 75px);
+    bottom: calc(50% - 75px);
+}
+
+#Circle9{
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    right: calc(50% - 75px);
+    bottom: calc(50% - 75px);
+}
+
+#Circle10{
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    right: calc(50% - 75px);
+    bottom: calc(50% - 75px);
+}
+
+#Circle11{
+    background: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    right: calc(50% - 75px);
+    bottom: calc(50% - 75px);
+}
+
+#Box6{
+    background: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+}
+
+#Box7{
+    background: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+}
+#Box8{
+    background: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+}
+#Box9{
+    background: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: calc(50% - 25px);
+}
+body{
+    overflow: hidden;
+}
