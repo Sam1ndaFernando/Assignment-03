@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+      font-size: 3em;
+      margin-bottom: 100px;
+    }
+
+    .button-container {
+      text-align: center;
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .button-container a {
+      display: inline-block;
+      margin: 10px;
+      text-decoration: none;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 70px 10px;
+      border-radius: 10px;
+      width: 100px;
+      height: 20px;
+      text-align: center;
+    }
+
+    :root {
+      --gradient: linear-gradient(-45deg, #9d007f, rgb(0, 192, 255), #7221ff);
+    }
+
+    body {
+      font-family: "Alexandria", sans-serif;
+    }
+
+    .main {
+      background: #ddd;
+      background-size: 300%;
+      background-image: var(--gradient);
+      animation: bg-animation 20s infinite;
+    }
+
+    @keyframes bg-animation {
+      0% {
+        background-position: left;
+      }
+      50% {
+        background-position: right;
+      }
+      100% {
+        background-position: left;
+      }
+    }
+
+  </style>
+
+</head>
+<body class="min-h-screen w-full flex justify-center items-center p-4 main">
+
+<div class="button-container">
+
+  <h1>Assignment 03</h1>
+
+  <a href="Case_01/index.html" target="_blank">Case 01</a>
+  <a href="Case_02/index.html" target="_blank">Case 02</a>
+  <a href="Case_03/index.html" target="_blank">Case 03</a>
+  <a href="Case_04/index.html" target="_blank">Case 04</a>
+  <a href="Case_05/index.html" target="_blank">Case 05</a>
+  <a href="Case_06/index.html" target="_blank">Case 06</a>
+</div>
+</body>
+</html>
